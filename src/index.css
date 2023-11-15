@@ -98,4 +98,51 @@ td{
   border-bottom: 1px solid #f2f2f2;
 }
 
+/* MUI style importants */
+
+/* STEPPER*/
+
+.stepLabel-root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: #3e97ff dashed 1px;
+  background-color: #0d73eb;
+  border-radius: 10px;
+  width: 46px;
+  height: 46px;
+}
+
+.stepLabel-root__active{
+  background-color: #50cd89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: #50cd89 solid 1px;
+  border-radius: 10px;
+  width: 46px;
+  height: 46px;
+}
+
+.css-8t49rw-MuiStepConnector-line{
+  border-left: #3e97ff dashed 1px !important;
+}
+
+.css-1pe7n21-MuiStepConnector-root{
+  margin-left: 23px !important;
+}
+
+/* STEPPER*/
+
+/* CHECKBOX */
+
+.css-ua6y4i-MuiButtonBase-root-MuiCheckbox-root{
+  color: #ccc !important;
+}
+
+/* CHECKBOX */
+
+/* MUI style importants */
 
