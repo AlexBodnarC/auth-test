@@ -46,7 +46,7 @@ const Auth = () => {
                             return(
                                 <div 
                                     key={index}
-                                    style={{ fontSize: '12px', fontWeight: '600', color: '#80b6f5', textAlign: 'center'}}
+                                    style={{ fontSize: '12px', fontWeight: '600', color: '#50cd89', textAlign: 'center'}}
                                 >
                                     {route.name}
                                 </div>
