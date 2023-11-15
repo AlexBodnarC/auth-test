@@ -143,13 +143,13 @@ const Board = () => {
                             <td>{row.date_removed}</td>
                             <td style={{color: '#3e97ff'}}>{row.link}</td>
                             <td>{row.source}</td>
-                            <td>{row.action}</td>
+                            <td><span className={row.className}>{row.action}</span></td>
                         </tr>
                     ))}
                 </tbody>
             </table>
             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '20px'}}>
-                <div className='selector' style={{backgroundColor: '#f2f2f2', fontSize: '12px', color: '#bebebe', fontWeight: '600'}}>Total result: {table_rows.length}</div>
+                <div style={{backgroundColor: '#f2f2f2', fontSize: '12px', color: '#bebebe', fontWeight: '600', borderRadius: '6px', padding: '5px 10px'}}>Total result: {table_rows.length}</div>
                 <div>
                     <Stack spacing={2}>
                         <Pagination 
