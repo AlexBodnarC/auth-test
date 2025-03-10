@@ -41,7 +41,7 @@ const Auth = () => {
                     <div>
                         <VerticalLinearStepper/>
                     </div>
-                    <div style={{display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'center', gap: 30}}>
+                    <div style={{display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'center', gap: 31}}>
                         {footer_routes.map((route, index) => {
                             return(
                                 <div 
